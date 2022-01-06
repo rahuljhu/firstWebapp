@@ -1,6 +1,27 @@
 {
   "features": {
-     "codegen": {
+    "graphqltransformer": {
+      "addmissingownerfields": true,
+      "improvepluralization": false,
+      "validatetypenamereservedwords": true,
+      "useexperimentalpipelinedtransformer": true,
+      "enableiterativegsiupdates": true,
+      "secondarykeyasgsi": true,
+      "skipoverridemutationinputtypes": true,
+      "transformerversion": 2,
+      "suppressschemamigrationprompt": true
+    },
+    "frontend-ios": {
+      "enablexcodeintegration": true
+    },
+    "auth": {
+      "enablecaseinsensitivity": true,
+      "useinclusiveterminology": true,
+      "breakcirculardependency": true,
+      "forcealiasattributes": false,
+      "useenabledmfas": true
+    },
+    "codegen": {
       "useappsyncmodelgenplugin": true,
       "usedocsgeneratorplugin": true,
       "usetypesgeneratorplugin": true,
