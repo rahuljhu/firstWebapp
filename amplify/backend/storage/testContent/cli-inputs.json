@@ -1,0 +1,14 @@
+{
+  "resourceName": "testContent",
+  "policyUUID": "dc73fcca",
+  "bucketName": "firstwebappdata",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
